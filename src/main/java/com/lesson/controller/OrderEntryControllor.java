@@ -150,7 +150,6 @@ public class OrderEntryControllor {
         if (mname != null && !mname.equalsIgnoreCase("")) {
             mname = new String(mname.getBytes("ISO-8859-1"), "utf8");
         }
-
         if (mid >= 1) {
             logger.info("保存菜品更新！");
             logger.info("Request Param: mid = " + mid);
